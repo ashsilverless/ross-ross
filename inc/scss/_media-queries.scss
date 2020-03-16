@@ -71,7 +71,11 @@
   /*---GLOBALS---*/
 
   .boxed-content {
-    padding: 2rem 0;
+    padding: 0;
+  }
+
+  .boxed-content>div {
+      padding: 0;
   }
 
   .hide-sm {
@@ -255,6 +259,7 @@
   }
   .gallery {
     .img-wrapper {
+        height:10em;
       grid-column: span 6 !important;
     }
   }
@@ -294,7 +299,7 @@
         font-weight: 300;
       }
       h2 {
-        font-size: 1.4rem;
+        font-size: 1rem;
       }
       h3 {
         font-size: 1.4rem;
@@ -313,6 +318,17 @@
   }
 
   /*---CONTENT---*/
+  .read-more-text.expand {
+      max-height: 150vh;
+  }
+
+  .read_more_container {
+      padding-bottom: 2em !important;
+  }
+
+  #content .content_double {
+      column-count: 1;
+  }
 
   /*---FOOTER---*/
 } /*---end extra small mq---*/
