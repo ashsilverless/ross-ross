@@ -338,7 +338,14 @@ header {
   font-weight: 700;
   text-transform: uppercase;
 }
-
+.read-more {
+    &.active {
+        opacity: 0;
+        
+        margin: 0;
+        padding: 0;
+    }
+}
 /*-----------GALLERY ------------*/
 .gallery {
   grid-gap: 1.5em;

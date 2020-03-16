@@ -96,7 +96,7 @@ jQuery(document).ready(function($) {
   $(".read-more").click(function(e) {
     e.preventDefault();
     $(this).prev().slideToggle();
-    $(this).css('opacity', '0');
+    $(this).addClass('active');
   });
 
   $(".tab-trigger").click(function() {
