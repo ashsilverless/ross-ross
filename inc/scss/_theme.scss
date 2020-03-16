@@ -341,9 +341,17 @@ header {
 .read-more {
     &.active {
         opacity: 0;
-        
+
         margin: 0;
         padding: 0;
+    }
+}
+.read-more-text {
+    max-height: 0;
+    overflow:hidden;
+    transition: max-height 0.5s ease;
+    &.expand {
+        max-height: 50vh;
     }
 }
 /*-----------GALLERY ------------*/

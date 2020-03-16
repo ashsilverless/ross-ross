@@ -92,10 +92,10 @@ jQuery(document).ready(function($) {
     $(".current-menu-item").toggleClass("loaded");
     $(".menu-trigger").toggleClass("opened");
   });
-  $(".read-more").prev().hide();
+  
   $(".read-more").click(function(e) {
     e.preventDefault();
-    $(this).prev().slideToggle();
+    $('.read-more-text').addClass('expand');
     $(this).addClass('active');
   });
 

@@ -15,7 +15,9 @@
 			<?php endif; ?>
 			<?php the_sub_field('introduction_text');?>
 			<?php if( get_sub_field('introduction_text_read_more') ): ?>
-				<?php the_sub_field('introduction_text_read_more');?>
+				<div class="read-more-text">
+					<?php the_sub_field('introduction_text_read_more');?>
+				</div>
 				<a class="button read-more" href="#"><span><?php the_sub_field('introduction_read_more');?></span></a>
 			<?php endif; ?>
 		</div>
