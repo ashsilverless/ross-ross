@@ -12,6 +12,7 @@ endif;?>
 				<a href="<?php the_sub_field('button_target');?>" class="explore"><span></span></a>
 		<?php endwhile; endif;?>
 	</div>
+	<div class="hero__tint" style="background-color:<?php the_field('tint');?>; opacity:<?php the_field('tint_amount')?>;"></div>
     <div class="container">
 		<div class="col">
 		    <div class="hero__content <?php if (is_page_template('page-templates/home.php')) {?>home_hero<?php }?>">
