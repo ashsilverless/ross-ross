@@ -6,19 +6,7 @@
   /*---GLOBALS---*/
 
   /*---HEADER---*/
-  .container {
-    &.cols-lg-6-12-6 {
-      > .col:nth-of-type(3n - 2) {
-        grid-column: span 6;
-      }
-      > .col:nth-of-type(3n -1) {
-        grid-column: span 12;
-      }
-      > .col:nth-of-type(3n) {
-        grid-column: span 6;
-      }
-    }
-  }
+
 
   /*---CONTENT---*/
 
@@ -46,7 +34,10 @@
   }
 
   /*---HEADER---*/
-
+nav {
+    border-right:none;
+    padding-right:0;
+}
   /*---CONTENT---*/
   .hero {
     .container {

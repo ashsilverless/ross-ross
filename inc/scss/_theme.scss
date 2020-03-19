@@ -159,12 +159,16 @@ header {
     display: none;
   }
   #logo {
+      grid-column: span 4;
     justify-content: flex-start;
     img {
       height: 2rem;
       filter: brightness(50);
     }
   }
+}
+.col.nav {
+    grid-column: span 20 !important;
 }
 .scrolled header #logo img {
   filter: brightness(1);
@@ -495,7 +499,7 @@ header {
 #team {
   background-color: $brand-light-grey;
   img {
-    max-height: 18rem;
+    height: 18rem;
   }
   .image_placeholder {
     width: 100%;

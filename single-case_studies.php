@@ -15,8 +15,6 @@ while ( have_posts() ): the_post(); ?>
 
 <?php $colour = get_field('page_colour');?>
 
-<!--INTRODUCTION-->
-
 <?php if( have_rows('introduction') ):
     		while( have_rows('introduction') ): the_row(); ?>
 	<div id="introduction" class="boxed-content <?php echo $colour;?>">

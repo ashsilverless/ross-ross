@@ -10,11 +10,7 @@ get_header();?>
 
 <?php get_template_part("template-parts/hero"); ?>
 
-<?php
-
-$colour = get_field('page_colour');
-
-?>
+<?php $colour = get_field('page_colour');?>
 
 <!--INTRODUCTION-->
 

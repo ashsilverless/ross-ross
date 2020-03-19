@@ -20,7 +20,7 @@ get_header();?>
 <?php if( have_rows('overview_blocks') ):
     		while( have_rows('overview_blocks') ): the_row(); ?>
 	<div id="residential-hospitality" class="boxed-content">
-		<div class="container container-small grid-gap no-sm-gutter text-center cols-12 cols-sm mb8">
+		<div class="container container-small grid-gap no-sm-gutter text-center cols-12 cols-sm">
 			<?php if( have_rows('section_blocks') ):
 					while( have_rows('section_blocks') ): the_row();
 						$colour = get_sub_field_object( 'cta_colour' );

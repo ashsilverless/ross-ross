@@ -54,7 +54,7 @@
 	            		while( have_rows('contact_info', 'options') ): the_row(); ?>
 			            	<div class="hide-md">
 			            		<div class="contact">
-				                     <a href="tel:<?php the_sub_field("phone"); ?>"><?php the_sub_field("phone"); ?></a>
+				                     <a href="tel:<?php the_sub_field("mobile"); ?>"><?php the_sub_field("mobile"); ?></a>
 				                </div>
 				            </div>
 	                <?php endwhile; endif;?>
