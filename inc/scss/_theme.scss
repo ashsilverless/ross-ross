@@ -397,12 +397,13 @@ header {
     &:nth-of-type(11n - 6) {
       grid-column: span 3;
     }
+    &:nth-of-type(11n - 1),
+    &:nth-of-type(11n - 2),
     &:nth-of-type(11n - 7) {
       grid-column: span 6;
     }
     &:nth-of-type(11n - 3),
-    &:nth-of-type(11n - 2),
-    &:nth-of-type(11n - 1),
+
     &:nth-of-type(11n) {
       grid-column: span 12;
     }
